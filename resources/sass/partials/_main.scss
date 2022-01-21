@@ -1,0 +1,38 @@
+main{
+  background-color:#1C1C1C;
+  .container{
+    // height: 100px;
+    padding: 40px 0;
+  }
+  
+  h2{
+    color: white;
+  }
+
+  .box{
+    // display: flex;
+    flex-wrap: wrap;
+    // justify-content: center;
+    // align-items: center;
+    @include center (justify);
+    align-content: center;
+    
+   
+  }
+  .div-button{
+    @include center();
+
+    button{
+      text-transform: uppercase;
+      color: white;
+      background-color: $primary-color;
+      padding: 10px 40px;
+      cursor: pointer;
+      border: 1px solid black;
+      margin-bottom: 30px;
+
+    }
+  }
+  
+  
+}

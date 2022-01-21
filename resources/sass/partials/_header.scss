@@ -1,0 +1,26 @@
+
+header{
+  background-color: white;
+  a img{
+    width: 80px;
+    margin: 10px 0;
+  }
+  ul li{
+    // list-style: none;
+    // display: inline-block;
+    margin: 0 10px;
+    font-size: 12px;
+    font-weight: bold;
+    a{
+      // text-decoration: none;
+      text-transform: uppercase;
+      color: black;
+      &:hover, &active{
+        color: $primary-color;
+        border-bottom: 5px solid $primary-color;
+        padding-bottom: 38px;
+      }
+    }
+  }
+  
+}
