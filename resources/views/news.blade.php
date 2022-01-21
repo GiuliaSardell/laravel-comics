@@ -6,7 +6,8 @@
   <main> 
     <div class="container">
       
-      <h1 style="color: white">HOME</h1>
+      <h1 style="color: white">NEWS</h1>
+       
     
       <div class="box">
         {{-- <ProductCard v-for="(product, index) in productList" 
