@@ -6,13 +6,13 @@ header{
     margin: 10px 0;
   }
   ul li{
-    // list-style: none;
-    // display: inline-block;
+    list-style: none;
+    display: inline-block;
     margin: 0 10px;
     font-size: 12px;
     font-weight: bold;
     a{
-      // text-decoration: none;
+      text-decoration: none;
       text-transform: uppercase;
       color: black;
       &:hover, &active{
@@ -22,5 +22,11 @@ header{
       }
     }
   }
+
+  input{
+    width: 200px;
+  }
+
+
   
 }

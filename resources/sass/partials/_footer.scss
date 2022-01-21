@@ -1,6 +1,6 @@
 footer{
   .footer-top{
-    background-image: url(../assets/img/footer-bg.jpg);
+    background-image: url(../../../public/img/footer-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 
@@ -8,7 +8,8 @@ footer{
       align-items: stretch;
 
       .sfondo{
-        background-image: url(../assets/img/dc-logo-bg.png);
+        background-image: url(../../../public/img/dc-logo-bg.png);
+        // C:\Users\Giulia\Documents\Boolean\#44\LARAVEL\laravel-comics\public\img\dc-logo-bg.png
         width: 450px;
         background-size: cover;
       }

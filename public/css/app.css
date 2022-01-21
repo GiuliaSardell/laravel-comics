@@ -41,12 +41,15 @@ header a img {
 }
 
 header ul li {
+  list-style: none;
+  display: inline-block;
   margin: 0 10px;
   font-size: 12px;
   font-weight: bold;
 }
 
 header ul li a {
+  text-decoration: none;
   text-transform: uppercase;
   color: black;
 }
@@ -56,5 +59,135 @@ header ul li aactive {
   color: #0C7CEC;
   border-bottom: 5px solid #0C7CEC;
   padding-bottom: 38px;
+}
+
+header input {
+  width: 200px;
+}
+
+.jumbo {
+  background-image: url(/images/jumbotron.jpg?1b0a3671766964a4114f90322970b124);
+  background-size: cover;
+  height: 300px;
+}
+
+main {
+  background-color: #1C1C1C;
+}
+
+main .container {
+  padding: 40px 0;
+}
+
+main h2 {
+  color: white;
+}
+
+main .box {
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+
+main .div-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+main .div-button button {
+  text-transform: uppercase;
+  color: white;
+  background-color: #0C7CEC;
+  padding: 10px 40px;
+  cursor: pointer;
+  border: 1px solid black;
+  margin-bottom: 30px;
+}
+
+footer .footer-top {
+  background-image: url(/images/footer-bg.jpg?dfd68d2946f211e1b678af05fd2f830b);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+footer .footer-top .container {
+  align-items: stretch;
+}
+
+footer .footer-top .container .sfondo {
+  background-image: url(/images/dc-logo-bg.png?f4404ce9dc132a08a47f19e3f73f1417);
+  width: 450px;
+  background-size: cover;
+}
+
+footer .footer-top .container .column {
+  display: flex;
+  flex-direction: column;
+}
+
+footer .footer-top .container img {
+  overflow: hidden;
+}
+
+footer .footer-top .container ul {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 20px;
+}
+
+footer .footer-top .container ul li {
+  margin: 3px 0;
+}
+
+footer .footer-top .container ul li:first-child {
+  margin: 20px 0;
+}
+
+footer .footer-top .container ul span {
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+}
+
+footer .footer-top .container ul a {
+  color: #7F7F7F;
+}
+
+footer .footer-top .container ul a:hover {
+  color: white;
+}
+
+footer .footer-bottom {
+  background-color: #303030;
+}
+
+footer .footer-bottom .container button {
+  padding: 10px;
+  background-color: #303030;
+  border: 1px solid #0C7CEC;
+  color: white;
+  text-transform: uppercase;
+  margin: 30px 0;
+  cursor: pointer;
+}
+
+footer .footer-bottom .container button:hover {
+  background-color: #0C7CEC;
+}
+
+footer .footer-bottom .container span {
+  color: #0C7CEC;
+  text-transform: uppercase;
+  vertical-align: middle;
+  margin: 0 10px;
+}
+
+footer .footer-bottom .container img {
+  vertical-align: middle;
+  margin: 0 5px;
+  cursor: pointer;
 }
 
