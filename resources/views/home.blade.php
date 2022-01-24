@@ -3,19 +3,30 @@
 
   @section('content')
 
+  
+
   <main> 
-    <div class="container">
+    <div class="container flex-column">
       
       <h1 style="color: white">HOME</h1>
-    
-      <div class="box">
-        {{-- <ProductCard v-for="(product, index) in productList" 
-        :key="index" 
-        :productName="product.series"
-        :productImage="product.thumb"
-        /> --}}
 
+      <div class="row my-5 justify-content-center align-item-center">
+      
+        @foreach ($products as $product)
+          <div class="box flex-column justify-content-center my-4">
+
+            <img src="{{$product['thumb']}}" alt="{{$product['title']}}">
+            <h5 style="text-align:center; color: white;">{{$product['title']}}</h5>
+
+          </div>
+            
+        @endforeach
         
+     
+        
+
+
+ 
 
       </div>
       

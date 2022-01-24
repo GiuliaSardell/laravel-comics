@@ -19,6 +19,10 @@
 {{-- qui andrà un contenuto diverso a seconda delle pagine --}}
 @yield('content')
 
+
+
+
+
 @include('partials.footer')
 </body>
 </html>

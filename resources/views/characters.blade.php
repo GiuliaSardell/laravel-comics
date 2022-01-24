@@ -10,12 +10,7 @@
        
     
       <div class="box">
-        {{-- <ProductCard v-for="(product, index) in productList" 
-        :key="index" 
-        :productName="product.series"
-        :productImage="product.thumb"
-        /> --}}
-
+        
         
 
       </div>
